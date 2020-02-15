@@ -34,7 +34,8 @@
         }
 
         .two {
-            background: url("Background.mp4") no-repeat center;
+/*             background: url("Background.mp4") no-repeat center; */
+            background: url("yure.mp4") no-repeat center;
 
         }
 
@@ -61,7 +62,7 @@
         .forma {
             display: inline;
             position: absolute;
-            margin-top: 35%;
+            margin-top: 15%;
             margin-left: 18%;
             opacity: 60;
         }
@@ -73,7 +74,7 @@
     
     <script>
         $(document).ready(function () {
-            $(".one").delay(5000).fadeOut(function () {
+            $(".one").delay(14000).fadeOut(function () {
                 $(".two").fadeIn();
                 $(this).remove();
             });
@@ -83,27 +84,28 @@
     <script>
         new WOW().init();
     </script>
-    <!-- <bgsound src="Melodiya.mp3" loop="-1"> -->
+    <bgsound src="Melodiya.mp3" loop="-1">
 
 </head>
 
 <body>
     <audio src="Melodiya.mp3" autoplay="autoplay"></audio>
 <div class="one" data-vide-bg='Birthday'></div>
-<div class="two" data-vide-bg='Background'
+<!-- <div class="two" data-vide-bg='Background' -->
+<div class="two" data-vide-bg='yure'
      data-vide-options="loop: true, resizing: false, playbackRate: 2, position: 0% 0%"
      style="display: none; width: 100%">
 
     <div class="wow fadeInRight col-md-6 offset-md-3 col-sm-6 offset-sm-3 col-xl-5 offset-xl-3 col-6 offset-3 body pl-lg-5 pr-5"
-         data-wow-delay="1s"
+         data-wow-delay="2s"
          data-wow-duration="9s">
         <p class="ad pl-3 text-center pl-5 ml-5" style="color: #dc1670; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' ">
         <i>
-            <b style="color: #dc065b" CLASS="wow fadeInDown" data-wow-delay="2s"
+            <b style="color: #dc065b" CLASS="wow fadeInDown" data-wow-delay="4s"
                data-wow-duration="4s">QADRDONIM DADADAA!!!
             </b><br>
 
-            <span CLASS="wow fadeInDown m-5 p-5 text-center" data-wow-delay="5s"
+            <span CLASS="wow fadeInDown m-5 p-5 text-center" data-wow-delay="6s"
                   data-wow-duration="4s" style="font-size: 16px">
          Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci
             alias animi consequuntur, cupiditate
@@ -111,7 +113,7 @@
             voluptates, voluptatum! Architecto asperiores consectetur dicta, dolor doloribus hic illum ipsa maiores odio
             perspiciatis quas saepe sapiente tempore veritatis vitae voluptate voluptatibus voluptatum?<br>
         </span>
-            <font class="wow fadeInDown small" data-wow-delay="6s"
+            <font class="wow fadeInDown small" data-wow-delay="7s"
                   data-wow-duration="4s" style="color: #3f37a3">
                  Shahzod!!!
             </font>
@@ -120,7 +122,7 @@
         </i>
         </p>
     </div>
-    <section class="forma wow fadeInDown" data-wow-delay="2s"
+    <section class="forma wow fadeInDown" data-wow-delay="20s"
              data-wow-duration="2s">
         <form action="mail.php" method="post" class="text-right">
             <label for="iii" class="text-center text-white" style="font-size: 14px">leave your impressions !!!</label>
