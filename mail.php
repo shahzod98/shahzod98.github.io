@@ -11,13 +11,13 @@ $name = $_POST['text'];
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.mail.ru';  																							// Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'shahzod998@inbox.ru'; // Ваш логин от почты с которой будут отправляться письма
-$mail->Password = 'qoplon98'; // Ваш пароль от почты с которой будут отправляться письма
+$mail->Username = 'gulomqodirovsherzod77@gmail.com'; // Ваш логин от почты с которой будут отправляться письма
+$mail->Password = 'sheRzOd77'; // Ваш пароль от почты с которой будут отправляться письма
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465; // TCP port to connect to / этот порт может отличаться у других провайдеров
 
-$mail->setFrom('shahzod998@inbox.ru'); // от кого будет уходить письмо?
-$mail->addAddress('gulinora1978@gmail.com');     // Кому будет уходить письмо
+$mail->setFrom('gulomqodirovsherzod77@gmail.com'); // от кого будет уходить письмо?
+$mail->addAddress('shahzod998@inbox.ru');     // Кому будет уходить письмо
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
